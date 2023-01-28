@@ -34,7 +34,6 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Core\Data\IRepository.cs" />
     <Compile Include="Core\Models\Entity.cs" />
     <Compile Include="Models\Fornecedores\Endereco.cs" />
