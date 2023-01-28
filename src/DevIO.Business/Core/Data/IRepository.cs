@@ -13,7 +13,7 @@ namespace DevIO.Business.Core.Data
         Task<List<TEntity>> ObterTodos();
         Task Atualizar(TEntity entity);
         Task Remover(Guid id);
-        Task<IEnumerable<TEntity>> Buscar(Expression<Func<TEntity, bool>> predicates);
+        Task<IEnumerable<TEntity>> Buscar(Expression<Func<TEntity, bool>> predicate);
         Task<int> SaveChanges();
     }
 }
